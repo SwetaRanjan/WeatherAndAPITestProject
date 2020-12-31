@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="15" passed="15">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="47655" started-at="2021-01-01T03:36:08 IST" finished-at="2021-01-01T03:36:55 IST">
+    <groups>
+    </groups>
+    <test name="Hyderabad" duration-ms="17778" started-at="2021-01-01T03:36:08 IST" finished-at="2021-01-01T03:36:26 IST">
+      <class name="com.ndtv.testCases.weatherReport">
+        <test-method status="PASS" signature="initialization()[pri:0, instance:com.ndtv.testCases.weatherReport@76b0bfab]" name="initialization" is-config="true" duration-ms="826" started-at="2021-01-01T03:36:08 IST" finished-at="2021-01-01T03:36:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="PASS" signature="verifyWeatherOnUI(java.lang.String)[pri:1, instance:com.ndtv.testCases.weatherReport@76b0bfab]" name="verifyWeatherOnUI" duration-ms="15714" started-at="2021-01-01T03:36:09 IST" finished-at="2021-01-01T03:36:24 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Hyderabad]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyWeatherOnUI -->
+        <test-method status="PASS" signature="verifyWeatherOnAPI(java.lang.String)[pri:2, instance:com.ndtv.testCases.weatherReport@76b0bfab]" name="verifyWeatherOnAPI" duration-ms="1096" started-at="2021-01-01T03:36:24 IST" finished-at="2021-01-01T03:36:26 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Hyderabad]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyWeatherOnAPI -->
+        <test-method status="PASS" signature="ComparingAPIAndWebInCelsius()[pri:3, instance:com.ndtv.testCases.weatherReport@76b0bfab]" name="ComparingAPIAndWebInCelsius" duration-ms="2" started-at="2021-01-01T03:36:26 IST" finished-at="2021-01-01T03:36:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ComparingAPIAndWebInCelsius -->
+        <test-method status="PASS" signature="ComparingAPIAndWebInFahrenheit()[pri:4, instance:com.ndtv.testCases.weatherReport@76b0bfab]" name="ComparingAPIAndWebInFahrenheit" duration-ms="1" started-at="2021-01-01T03:36:26 IST" finished-at="2021-01-01T03:36:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ComparingAPIAndWebInFahrenheit -->
+        <test-method status="PASS" signature="ComparingAPIAndWebInHumidity()[pri:5, instance:com.ndtv.testCases.weatherReport@76b0bfab]" name="ComparingAPIAndWebInHumidity" duration-ms="3" started-at="2021-01-01T03:36:26 IST" finished-at="2021-01-01T03:36:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ComparingAPIAndWebInHumidity -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.ndtv.testCases.weatherReport@76b0bfab]" name="close" is-config="true" duration-ms="82" started-at="2021-01-01T03:36:26 IST" finished-at="2021-01-01T03:36:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.ndtv.testCases.weatherReport -->
+    </test> <!-- Hyderabad -->
+    <test name="Pune" duration-ms="15950" started-at="2021-01-01T03:36:26 IST" finished-at="2021-01-01T03:36:42 IST">
+      <class name="com.ndtv.testCases.weatherReport">
+        <test-method status="PASS" signature="initialization()[pri:0, instance:com.ndtv.testCases.weatherReport@38bc8ab5]" name="initialization" is-config="true" duration-ms="470" started-at="2021-01-01T03:36:26 IST" finished-at="2021-01-01T03:36:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="PASS" signature="verifyWeatherOnUI(java.lang.String)[pri:1, instance:com.ndtv.testCases.weatherReport@38bc8ab5]" name="verifyWeatherOnUI" duration-ms="15195" started-at="2021-01-01T03:36:26 IST" finished-at="2021-01-01T03:36:41 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pune]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyWeatherOnUI -->
+        <test-method status="PASS" signature="verifyWeatherOnAPI(java.lang.String)[pri:2, instance:com.ndtv.testCases.weatherReport@38bc8ab5]" name="verifyWeatherOnAPI" duration-ms="185" started-at="2021-01-01T03:36:41 IST" finished-at="2021-01-01T03:36:41 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pune]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyWeatherOnAPI -->
+        <test-method status="PASS" signature="ComparingAPIAndWebInCelsius()[pri:3, instance:com.ndtv.testCases.weatherReport@38bc8ab5]" name="ComparingAPIAndWebInCelsius" duration-ms="3" started-at="2021-01-01T03:36:41 IST" finished-at="2021-01-01T03:36:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ComparingAPIAndWebInCelsius -->
+        <test-method status="PASS" signature="ComparingAPIAndWebInFahrenheit()[pri:4, instance:com.ndtv.testCases.weatherReport@38bc8ab5]" name="ComparingAPIAndWebInFahrenheit" duration-ms="2" started-at="2021-01-01T03:36:42 IST" finished-at="2021-01-01T03:36:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ComparingAPIAndWebInFahrenheit -->
+        <test-method status="PASS" signature="ComparingAPIAndWebInHumidity()[pri:5, instance:com.ndtv.testCases.weatherReport@38bc8ab5]" name="ComparingAPIAndWebInHumidity" duration-ms="3" started-at="2021-01-01T03:36:42 IST" finished-at="2021-01-01T03:36:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ComparingAPIAndWebInHumidity -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.ndtv.testCases.weatherReport@38bc8ab5]" name="close" is-config="true" duration-ms="79" started-at="2021-01-01T03:36:42 IST" finished-at="2021-01-01T03:36:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.ndtv.testCases.weatherReport -->
+    </test> <!-- Pune -->
+    <test name="Jaipur" duration-ms="13903" started-at="2021-01-01T03:36:42 IST" finished-at="2021-01-01T03:36:55 IST">
+      <class name="com.ndtv.testCases.weatherReport">
+        <test-method status="PASS" signature="initialization()[pri:0, instance:com.ndtv.testCases.weatherReport@1500955a]" name="initialization" is-config="true" duration-ms="437" started-at="2021-01-01T03:36:42 IST" finished-at="2021-01-01T03:36:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="PASS" signature="verifyWeatherOnUI(java.lang.String)[pri:1, instance:com.ndtv.testCases.weatherReport@1500955a]" name="verifyWeatherOnUI" duration-ms="13215" started-at="2021-01-01T03:36:42 IST" finished-at="2021-01-01T03:36:55 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[JaiPur]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyWeatherOnUI -->
+        <test-method status="PASS" signature="verifyWeatherOnAPI(java.lang.String)[pri:2, instance:com.ndtv.testCases.weatherReport@1500955a]" name="verifyWeatherOnAPI" duration-ms="167" started-at="2021-01-01T03:36:55 IST" finished-at="2021-01-01T03:36:55 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[JaiPur]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyWeatherOnAPI -->
+        <test-method status="PASS" signature="ComparingAPIAndWebInCelsius()[pri:3, instance:com.ndtv.testCases.weatherReport@1500955a]" name="ComparingAPIAndWebInCelsius" duration-ms="1" started-at="2021-01-01T03:36:55 IST" finished-at="2021-01-01T03:36:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ComparingAPIAndWebInCelsius -->
+        <test-method status="PASS" signature="ComparingAPIAndWebInFahrenheit()[pri:4, instance:com.ndtv.testCases.weatherReport@1500955a]" name="ComparingAPIAndWebInFahrenheit" duration-ms="1" started-at="2021-01-01T03:36:55 IST" finished-at="2021-01-01T03:36:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ComparingAPIAndWebInFahrenheit -->
+        <test-method status="PASS" signature="ComparingAPIAndWebInHumidity()[pri:5, instance:com.ndtv.testCases.weatherReport@1500955a]" name="ComparingAPIAndWebInHumidity" duration-ms="1" started-at="2021-01-01T03:36:55 IST" finished-at="2021-01-01T03:36:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ComparingAPIAndWebInHumidity -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.ndtv.testCases.weatherReport@1500955a]" name="close" is-config="true" duration-ms="74" started-at="2021-01-01T03:36:55 IST" finished-at="2021-01-01T03:36:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.ndtv.testCases.weatherReport -->
+    </test> <!-- Jaipur -->
+  </suite> <!-- Suite -->
+</testng-results>

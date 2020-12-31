@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.ndtv.testCases.weatherReport">
+        <methods>
+          <include name="ComparingAPIAndWebInFahrenheit"/>
+          <include name="verifyWeatherOnUI"/>
+          <include name="initialization"/>
+          <include name="verifyWeatherOnAPI"/>
+          <include name="ComparingAPIAndWebInHumidity"/>
+          <include name="close"/>
+          <include name="ComparingAPIAndWebInCelsius"/>
+        </methods>
+      </class> <!-- com.ndtv.testCases.weatherReport -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

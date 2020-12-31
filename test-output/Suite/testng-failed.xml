@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Hyderabad(failed)">
+    <parameter name="cityName" value="Hyderabad"/>
+    <classes>
+      <class name="com.ndtv.testCases.weatherReport">
+        <methods>
+          <include name="initialization"/>
+          <include name="close"/>
+          <include name="ComparingAPIAndWebInCelsius"/>
+        </methods>
+      </class> <!-- com.ndtv.testCases.weatherReport -->
+    </classes>
+  </test> <!-- Hyderabad(failed) -->
+  <test thread-count="5" name="Jaipur(failed)">
+    <parameter name="cityName" value="JaiPur"/>
+    <classes>
+      <class name="com.ndtv.testCases.weatherReport">
+        <methods>
+          <include name="initialization"/>
+          <include name="close"/>
+          <include name="ComparingAPIAndWebInCelsius"/>
+        </methods>
+      </class> <!-- com.ndtv.testCases.weatherReport -->
+    </classes>
+  </test> <!-- Jaipur(failed) -->
+</suite> <!-- Failed suite [Suite] -->

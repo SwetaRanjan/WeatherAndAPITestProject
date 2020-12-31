@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+		<!-- parameter name="cityName" value="Jaipur" />
+		<parameter name="cityName" value="Pune" />
+		<parameter name="cityName" value="Hyderabad" />-->
+
+	<test thread-count="5" name="Hyderabad" >
+		<parameter name="cityName" value="Hyderabad"/>
+			<classes>
+       			<class name="com.ndtv.testCases.weatherReport" />
+    		</classes>
+    </test>
+    
+  <test thread-count="5" name="Pune" >
+		<parameter name="cityName" value="Pune" />
+			<classes>
+    		   <class name="com.ndtv.testCases.weatherReport" />
+    		</classes>
+    </test>
+ 
+    <test thread-count="5" name="Jaipur">
+		<parameter name="cityName" value="JaiPur" />
+			<classes>
+    		   <class name="com.ndtv.testCases.weatherReport" />
+    		</classes>
+    </test>
+ 
+</suite>
+ 
